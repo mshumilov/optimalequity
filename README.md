@@ -92,11 +92,11 @@ file, and we start on line #1. Therefore this file has exactly 30 lines.
 
 ## Output
 
-2 files as result:
+2 files as result (are written to the directory that contains the control file and the initial glidepath):
+
 * *MinimizeRuinProbability.exe.log* - log file, all you have on console is saved there.
 
-* *output.txt* - is written to the directory that contains the control
-file and the initial glidepath. A sample of this file is shown below. GP[00] is α<sub>1</sub>, GP[01] is α<sub>2</sub>,
+* *output.txt* - a sample of this file is shown below. GP[00] is α<sub>1</sub>, GP[01] is α<sub>2</sub>,
 etc... The first equity ratio is set at time t=0 and the corresponding return is observed at time t=1.
 
 Example:
@@ -112,7 +112,7 @@ GP[05]=+0.8765350143 GP[11]=+0.7515547956 GP[17]=+0.6393611079 GP[23]=+0.5553611
 
 ## How to use
 
-The app calculates max success probability and the optimal static glidepath for it, for the specified input parameters.
+The app calculates max success probability and the optimal static glidepath for it.
 
 First fill *control.txt*, run the app and check *output.txt*.
 
