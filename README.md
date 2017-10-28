@@ -94,7 +94,7 @@ file, and we start on line #1. Therefore this file has exactly 30 lines.
 
 2 files as result (are written to the directory that contains the control file and the initial glidepath):
 
-* *MinimizeRuinProbability.exe.log* - log file, all you have on console is saved there.
+* *OptimalEquity.exe.log* - log file, all you have on console is saved there.
 
 * *output.txt* - a sample of this file is shown below. GP[00] is α<sub>1</sub>, GP[01] is α<sub>2</sub>,
 etc... The first equity ratio is set at time t=0 and the corresponding return is observed at time t=1.
